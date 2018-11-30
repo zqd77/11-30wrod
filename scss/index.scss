@@ -64,3 +64,47 @@
         }
     }
 }
+
+.list {
+    flex: 1;
+    overflow: hidden;
+    padding: pxTorem(10px);
+    margin-top: pxTorem(10px);
+    .love {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        h3 {
+            height: pxTorem(30px);
+            line-height: pxTorem(30px);
+            font-size: pxTorem(20px);
+            margin-bottom: pxTorem(10px);
+        }
+        dl {
+            flex: 1;
+            display: flex;
+            margin-bottom: pxTorem(10px);
+            dt {
+                margin-right: pxTorem(10px);
+            }
+            dd {
+                flex: 1;
+                font-size: pxTorem(14px);
+                p:nth-of-type(1) {
+                    font-size: pxTorem(20px);
+                    margin-bottom: pxTorem(5px);
+                }
+                p:nth-of-type(3) {
+                    margin-top: pxTorem(30px);
+                    display: flex;
+                    justify-content: space-between;
+                    b {
+                        font-weight: bold;
+                        font-size: pxTorem(17px);
+                        color: green;
+                    }
+                }
+            }
+        }
+    }
+}
